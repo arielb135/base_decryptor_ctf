@@ -4,7 +4,7 @@ Fix the code in order to decrypt your encrypted message.
 Your message is found in the file named encrypted_<YOUR_SERIAL_NUMBER>.txt .
 Check your changes by running main.py - the decrypted message should be a valid english sentence.
 
-You cannot change the method signatures ( function name and input parameters ) and class names.
+You cannot change or delete the method signatures ( function name and input parameters ) and class names.
 Pay attention that the class AbstractEncryptor is an abstract class and cant be changed to a regular class.
 
 The encryption algorithm that was used to encrypt your original message is:
