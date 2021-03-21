@@ -4,7 +4,7 @@ from abstract_decryptor import AbstractDecryptor
 class BaseDecryptor(AbstractDecryptor):
 
     def convert_to_string(self, base64_bytes):
-        message_bytes = super().convert_from_base64(base64_bytes)
+        message_bytes = self.convert_from_base64(base64_bytes)
         message = ""
         try:
             # converts bytes to string assuming ascii representation
